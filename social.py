@@ -8,20 +8,20 @@ _\ \ (_) | (__| | (_| | | / _  \  __/ (_| |
 \__/\___/ \___|_|\__,_|_| \/ \_/\___|\__,_|""" )
 
 def obtener_nombre():
-    nombre = input("Dinos como te llamas ")
+    nombre = input("Dinos como te llamas: ")
     return nombre
 
 def obtener_edad():
-    anio = int(input("¿En qué año naciste? "))
+    anio = int(input("¿En qué año naciste? :"))
     return 2020-anio-1
 
 def obtener_estatura():
-    estatura = float(input("¿Cuánto mides en metros? "))
+    estatura = float(input("¿Cuánto mides en metros? :"))
     metros = float(estatura)
     return metros
 
 def obtener_genero():
-    genero = input("Ingresa tu sexo: M=masculino, F=Femenino: ")
+    genero = input("Ingresa tu sexo: M=masculino, F=Femenino: :")
     
     while genero != "M" and genero != "F":
         genero = input("Ingresa tu sexo: M=masculino, F=Femenino: ")
@@ -33,7 +33,7 @@ def obtener_pais():
     return pais
 
 def obtener_amigos():
-    linea = input("Escrib una lista con los nombres de tus amigos, separalos con coma ',':")
+    linea = input("Escribe una lista con los nombres de tus amigos, separalos con coma ',':  ")
     lista_amigos = linea.split(',')
     return lista_amigos
 

@@ -24,7 +24,6 @@ print("Datos de tu perfil: ","-"*10, end="\n")
 social.mostrar_perfil(nombre, edad, estatura,genero, pais, amigos)
 social.mostrar_mensaje(nombre, estado)
 
-
 #se muestra el menu y se consultan las opciones
 opcion = 1
 while opcion != 0:
